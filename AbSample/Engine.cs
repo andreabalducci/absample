@@ -19,12 +19,17 @@ namespace AbSample
 
         public void Start()
         {
-            Logger.Debug("Started");
+            Logger.Debug("Started v2");
         }
 
         public void Stop()
         {
-            Logger.Debug("Stopped");
+            Logger.Debug("Stopped v2");
+        }
+
+        public string GetVersion()
+        {
+            return "v2";
         }
     }
 }
